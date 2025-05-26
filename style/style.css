@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to top left, #b8e7fa, #e6e6fa);
+  background-repeat: no-repeat, repeat;
+  height: 100%;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #0d1321;
+}
+.btn {
+  cursor: pointer;
+  background-image: linear-gradient(to top left, #ffd447, #ffa500);
+  background-repeat: no-repeat, repeat;
+  padding: 16px 32px;
+  text-align: center;
+  font-weight: bold;
+  width: 240px;
+  height: 64px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn:hover {
+  background-image: linear-gradient(to top left, #ffa500, #ffd447);
+}
+
+.p-5 {
+  padding: 24px 64px;
+}
+nav {
+  height: 64px;
+  background-color: #ffffffb4;
+}
+nav ul {
+  display: block;
+  align-items: center;
+}
+nav ul li {
+  width: 50%;
+  float: left;
+}
+
+nav ul li .nav-btn {
+  float: right;
+}
+
+.logo {
+  color: #0d1321;
+  font-size: 28px;
+  font-weight: bold;
+}
+.logo span {
+  color: #ffa500;
+}
+
+/* Hero Section */
+
+.hero-section {
+  /* width: 1260px;
+    height: 592px; */
+  margin: 100px auto;
+  background-color: #e6edf9;
+  padding: 40px 64px;
+  text-align: center;
+}
+.hero-img {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.hero-content h1 {
+  color: #0d1321;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.hero-content p {
+  color: #0d13219e;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.purpose h2 {
+  color: #0d1321;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.purpose p {
+  color: #0d13219e;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.working {
+  height: 480px;
+  margin: 100px auto;
+  background-color: #e6edf9;
+  padding: 48px;
+}
+
+.working .working-content {
+  padding: 104px 0;
+  width: 50%;
+  float: left;
+  text-align: left;
+  /* margin-top: 48px;
+  margin-left: 68px; */
+}
+.working .working-content h3 {
+  color: #0d1321b2;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.working .working-content p {
+  color: #0d13219e;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.working .working-img {
+  float: right;
+}
+
+.inspiration .inspiration-content {
+  text-align: center;
+}
+.inspiration .inspiration-content h3 {
+  color: #0d1321;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.inspiration .inspiration-content p {
+  color: #0d13219e;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.inspiration-video-content {
+  border: solid;
+  border-color: #0d132138;
+  padding: 32px;
+  text-align: center;
+}
+
+.target {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.target .target-content h3 {
+  color: #0d1321;
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+
+.target .target-content p {
+  color: #0d13219e;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.target-cards {
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.target-cards .card {
+  background-image: linear-gradient(to top left, #9de5ff, #e6edf9);
+
+  padding: 64px 160px;
+   margin-left: 136px;
+   border: #b8e7fa solid;
+}
+
+.target-cards .card:hover{  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.target-cards .card:nth-child {
+
+}
+
+
+.footer{
+    background-color: #ffffffb4;
+    display: flex;
+    padding: 32px;
+    justify-content: space-around;
+}
+
+
+.footer-social a {
+    margin-left: 32px;
+}
